@@ -56,7 +56,7 @@ const pi = 3.14159;
 let radius;
 let circumference;
 
-pi = 400.00
+// pi = 400.00 // once assigned as constant. it can not be assigned again. 
 
 radius = window.prompt ("enter the radius of a circle");
 radius = Number(radius);
