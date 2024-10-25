@@ -16,9 +16,9 @@
  
  */
 
- let x = "pizza";
- let y = "pizza";
- let z = "pizza";
+ let x = "0";
+ let y = "0";
+ let z = "0";
 
  // we gonna convert different values to different value types
 
@@ -30,3 +30,8 @@ z = Boolean(z);
 console.log(x, typeof x);
 console.log(y, typeof y);
 console.log(z, typeof z);
+
+// if you try to convert alphabetical letters to a number that will console log to NAN (not a number)
+// word pizza already a string so converting it wont do anything. 
+//if you convert a string into a boolean, converting the word pizza into a boolean returns true .... as long as theres some value and you convert it into a boolean it will always be true. 
+// lines 34-36 are talking about when x,y,z were all assignted to the word pizza. 
