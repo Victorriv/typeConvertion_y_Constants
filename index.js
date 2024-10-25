@@ -16,6 +16,10 @@
  
  */
 
+
+
+
+ /*
  let x = ""; // pizza
  let y = "";
  let z = "";
@@ -34,7 +38,27 @@ console.log(z, typeof z);
 // if you try to convert alphabetical letters to a number that will console log to NAN (not a number)
 // word pizza already a string so converting it wont do anything. 
 //if you convert a string into a boolean, converting the word pizza into a boolean returns true .... as long as theres some value and you convert it into a boolean it will always be true. 
-// lines 34-36 are talking about when x,y,z were all assignted to the word pizza. 
+// lines 38-40 are talking about when x,y,z were all assignted to the word pizza. 
 
 
 // when its just " " this is a way to see a user left something empty. 
+
+
+*/
+
+
+
+/*  ****** CONSTANTS******  */ 
+
+// CONSTANTS are variables you cant be changed
+
+let pi = 3.14159;
+let radius;
+let circumference;
+
+radius = window.prompt ("enter the radius of a circle");
+radius = Number(radius);
+
+circumference = 2 * pi * radius;
+
+console.log(circumference);
