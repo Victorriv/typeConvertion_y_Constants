@@ -52,9 +52,11 @@ console.log(z, typeof z);
 
 // CONSTANTS are variables you cant be changed
 
-let pi = 3.14159;
+const pi = 3.14159;
 let radius;
 let circumference;
+
+pi = 400.00
 
 radius = window.prompt ("enter the radius of a circle");
 radius = Number(radius);
