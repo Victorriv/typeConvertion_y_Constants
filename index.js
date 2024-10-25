@@ -16,9 +16,9 @@
  
  */
 
- let x = "0";
- let y = "0";
- let z = "0";
+ let x = ""; // pizza
+ let y = "";
+ let z = "";
 
  // we gonna convert different values to different value types
 
@@ -35,3 +35,6 @@ console.log(z, typeof z);
 // word pizza already a string so converting it wont do anything. 
 //if you convert a string into a boolean, converting the word pizza into a boolean returns true .... as long as theres some value and you convert it into a boolean it will always be true. 
 // lines 34-36 are talking about when x,y,z were all assignted to the word pizza. 
+
+
+// when its just " " this is a way to see a user left something empty. 
