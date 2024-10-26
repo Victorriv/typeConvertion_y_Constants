@@ -58,11 +58,12 @@ let circumference;
 
 // pi = 400.00 // once assigned as constant. it can not be assigned again. 
 
-radius = Number(radius);
+// radius = Number(radius); this gets commented out when you set radius = document. on line 67
 
 circumference = 2 * pi * radius;
 
 
 document.getElementById("mySubmit").onclick = function(){
-    document.getElementById("myText").value;
+    radius =document.getElementById("myText").value;
+    radius = Number(radius); // type cast our input as a numberr
 }
