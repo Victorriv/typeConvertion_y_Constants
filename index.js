@@ -58,12 +58,11 @@ let circumference;
 
 // pi = 400.00 // once assigned as constant. it can not be assigned again. 
 
-radius = window.prompt ("enter the radius of a circle");
 radius = Number(radius);
 
 circumference = 2 * pi * radius;
 
 
 document.getElementById("mySubmit").onclick = function(){
-   
+    document.getElementById("myText").value;
 }
