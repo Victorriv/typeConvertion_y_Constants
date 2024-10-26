@@ -60,10 +60,13 @@ let circumference;
 
 // radius = Number(radius); this gets commented out when you set radius = document. on line 67
 
-circumference = 2 * pi * radius;
 
 
 document.getElementById("mySubmit").onclick = function(){
     radius =document.getElementById("myText").value;
-    radius = Number(radius); // type cast our input as a numberr
+    radius = Number(radius); // type cast our input as a number\
+    circumference = 2 * pi * radius; 
+    document.getElementById("myH3").textContent = circumference
+
+
 }
