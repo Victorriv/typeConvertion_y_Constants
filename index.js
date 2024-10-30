@@ -66,7 +66,7 @@ document.getElementById("mySubmit").onclick = function(){
     radius =document.getElementById("myText").value;
     radius = Number(radius); // type cast our input as a number\
     circumference = 2 * pi * radius; 
-    document.getElementById("myH3").textContent = circumference
+    document.getElementById("myH3").textContent = circumference + "cm"; // this is to change the content of that element h3 and make equal circumference. 
 
 
 }
